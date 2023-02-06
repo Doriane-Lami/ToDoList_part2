@@ -1,9 +1,9 @@
 // une chose
 export default class Chose {
-  constructor(texte, fait = false) {
+  constructor(id, texte, fait) {
     this._texte = texte;
     this._fait = fait;
-    this._id = Date.now() + Math.floor(Math.random() * 10); // génération d'un id unique
+    this._id = id;
   }
   get texte() {
     return this._texte;
@@ -14,7 +14,6 @@ export default class Chose {
   get fait() {
     return this._fait;
   }
-
   // modifier fait / pas fait
   faire() {
     this._fait = !this._fait;

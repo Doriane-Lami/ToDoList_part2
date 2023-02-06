@@ -11,5 +11,4 @@ import ToDoList from "./components/ToDoList.vue";
   <ToDoList />
 </template>
 
-<style>
-</style>
+<style></style>

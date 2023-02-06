@@ -19,5 +19,4 @@ defineEmits(["deletec", "fairec"]);
   </li>
 </template>
 
-<style>
-</style>
+<style></style>
